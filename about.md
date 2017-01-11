@@ -3,13 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+# 2010년 6월. 시작
+여러 사이트에서 많은 분들의 도움을 받았습니다.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+# 2017년 1월. 계속
+부족하지만 제가 가진 정보를 함께 공유하고 싶습니다.
