@@ -32,3 +32,6 @@ exclude:
 
 # global configuration
 timezone: Asia/Seoul
+
+google_analytics:
+  ua: 'UA-90283111-1'
