@@ -23,7 +23,7 @@ $ cd
 # 해결방법
 1.마우스 우클릭 > 'Git Bash Here' 선택.
 
-![git bash here](/files/git_bash_here.png)
+![git bash here](/images/git_bash_here.png)
 
 2.'.bashrc' 파일 수정
 
