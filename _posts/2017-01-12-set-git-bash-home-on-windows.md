@@ -28,6 +28,8 @@ $ cd
 
 ![git bash here](/images/git_bash_here.png)
 
+혹은
+
 2.'.bashrc' 파일 수정
 
 - git bash 실행.
