@@ -11,9 +11,9 @@ categories: github pages
 
 > '아, 여기(폴더)가 아니구나..'
 
-```
+{% highlight bash %}
 $ cd
-```
+{% endhighlight %}
 를 입력하다가
 
 > 'git bash 를 실행할 때 내가 원하는 로컬 폴더가 바로 나오게 할 수 없을까?'
@@ -31,23 +31,23 @@ git bash 실행.
 
 [vi](https://namu.wiki/w/vi)(텍스트 에디터) 를 이용해 편집.
 
-```
+{% highlight bash %}
 $ vi ~/.bashrc
-```
+{% endhighlight %}
 
 INSERT 모드(i)에서 원하는 경로를 입력 후 저장(:wq).
 
-```
+{% highlight bash %}
 cd My\ Documents/GitHub/kimluffy-tech.github.io
-```
+{% endhighlight %}
 
 git bash 재실행.
 
 원하는 경로인지 확인.
 
-```
+{% highlight bash %}
 $ pwd
-```
+{% endhighlight %}
 
 # 마치며
 문득 느낀 불편함을 해결하고, 그 내용을 첫 글로 공유할 수 있어 기쁩니다.
