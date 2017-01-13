@@ -14,7 +14,7 @@ tags: windows,jekyll,github,pages,setting,git bash
 
 > '아, 여기(폴더)가 아니구나..'
 
-```vim
+```console
 $ cd
 ```
 를 입력하다가
@@ -36,21 +36,21 @@ $ cd
 
 [vi](https://namu.wiki/w/vi)(텍스트 에디터) 를 이용해 편집.
 
-```vim
+```console
 $ vi ~/.bashrc
 ```
 
 - INSERT 모드(i)에서 원하는 경로를 입력 후 저장(:wq).
 
-{% highlight ruby %}
+```console
 cd My\ Documents/GitHub/kimluffy-tech.github.io
-{% endhighlight %}
+```
 
 - git bash 재실행.
 
 - 원하는 경로인지 확인.
 
-```vim
+```console
 $ pwd
 ```
 
