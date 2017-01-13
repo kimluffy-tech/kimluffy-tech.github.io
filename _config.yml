@@ -35,3 +35,5 @@ timezone: Asia/Seoul
 
 google_analytics:
   ua: 'UA-90283111-1'
+
+keep_files: [file]
