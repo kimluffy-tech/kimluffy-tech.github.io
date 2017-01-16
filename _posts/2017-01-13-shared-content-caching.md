@@ -54,6 +54,7 @@ title:  "공유 콘텐츠 캐싱"
 
 - 링크드인에서는 페이스북의 Sharing Debuuger, 트위터의 Card Validator 와 같이 Preview(캐시 갱신 방법)를 제공하지 않습니다.
 [Shared on LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin) 페이지의 **Shared Content Caching** 항목을 요약해보면
+
 >The first time that LinkedIn's crawlers visit a webpage when asked to share content via a URL, the data it finds (Open Graph values or our own analysis) will be cached for a period of approximately 7 days.
 
 링크드인의 크롤러가 최초에 수집한 데이터를 캐시로 **약 7일간 유지** 하게 됩니다.
