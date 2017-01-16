@@ -2,7 +2,6 @@
 layout: post
 title:  "Windows에서 git bash $HOME 설정"
 categories: github pages
-tags: windows,jekyll,github,pages,setting,git bash
 ---
 # 목표
 - Windows에서 git bash $HOME 설정.
@@ -53,6 +52,3 @@ cd My\ Documents/GitHub/kimluffy-tech.github.io
 ```console
 $ pwd
 ```
-
-# 마치며
-이상 문득 느낀 불편함을 2가지 방법으로 해결해봤습니다.
