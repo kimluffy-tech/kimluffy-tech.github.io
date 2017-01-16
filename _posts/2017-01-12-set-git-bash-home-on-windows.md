@@ -23,15 +23,15 @@ $ cd
 생각했습니다.
 
 # 해결방법
-1.마우스 우클릭 > 'Git Bash Here' 선택.
+
+## 마우스 우클릭 > 'Git Bash Here' 선택.
 
 ![git bash here](/images/git_bash_here.png)
 
-혹은
 
-2.'.bashrc' 파일 수정
+## '.bashrc' 파일 수정
 
-- git bash 실행.
+1.git bash 실행.
 
 [vi](https://namu.wiki/w/vi)(텍스트 에디터) 를 이용해 편집.
 
@@ -39,15 +39,15 @@ $ cd
 $ vi ~/.bashrc
 ```
 
-- INSERT 모드(i)에서 원하는 경로를 입력 후 저장(:wq).
+2.INSERT 모드(i)에서 원하는 경로를 입력 후 저장(:wq).
 
 ```console
 cd My\ Documents/GitHub/kimluffy-tech.github.io
 ```
 
-- git bash 재실행.
+3.git bash 재실행.
 
-- 원하는 경로인지 확인.
+4.원하는 경로인지 확인.
 
 ```console
 $ pwd

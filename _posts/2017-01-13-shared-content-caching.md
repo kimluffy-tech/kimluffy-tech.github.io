@@ -15,7 +15,7 @@ title:  "공유 콘텐츠 캐싱"
 
 # 해결 방법
 
-## 1.페이스북(Facebook)
+## 페이스북(Facebook)
 - [웹마스터 공유 가이드](https://developers.facebook.com/docs/sharing/webmasters) 를 참고하여 open graph meta tags를 입력해줍니다.
 
 ```html
@@ -29,7 +29,7 @@ title:  "공유 콘텐츠 캐싱"
 - 페이스북에서는 [Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/) 를 제공합니다.
 해당 페이지에서 SNS에 공유하려는 페이지 URL을 입력 후 **디버그** 합니다.
 
-## 2.트위터(Twitter)
+## 트위터(Twitter)
 - [Summary Card](https://dev.twitter.com/cards/types/summary) 를 참고하여 meta 태그(tags)를 입력해줍니다.
 
 ```html
@@ -43,7 +43,7 @@ title:  "공유 콘텐츠 캐싱"
 - 트위터에서는 [Card Validator](https://cards-dev.twitter.com/validator) 를 제공합니다.
 해당 페이지에서 SNS에 공유하려는 페이지 URL 을 입력 후 **Preview card** 합니다.
 
-## 3.링크드인(LinkedIn)
+## 링크드인(LinkedIn)
 - [Shared on LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin) 을 참고하여 open graph meta tags 를 입력해줍니다.
 
 ```html
