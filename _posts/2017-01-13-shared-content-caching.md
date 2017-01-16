@@ -14,6 +14,7 @@ title:  "공유 콘텐츠 캐싱"
 는 요청사항을 접수하였습니다.
 
 # 해결 방법
+
 ## 1.페이스북(Facebook)
 - [웹마스터 공유 가이드](https://developers.facebook.com/docs/sharing/webmasters) 를 참고하여 open graph meta tags를 입력해줍니다.
 
