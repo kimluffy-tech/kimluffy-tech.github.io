@@ -1,22 +1,21 @@
 ---
 layout: post
-title:  "공유 콘텐츠 캐싱"
+title:  "SNS 공유하기 그리고 캐싱"
 ---
 # 목표
-- SNS에 URL을 공유 시 노출되는 콘텐츠를 변경 후 캐시 관리
+- SNS에 URL을 공유 시 노출되는 콘텐츠를 설정하고, 변경 시 캐시 관리를 해보자.
 
 # 시작하며
-운영 중인 사이트에서 새로운 이벤트 페이지를 오픈했습니다.
-해당 페이지에서 SNS 공유 기능을 필요로 하지 않아 넣지 않은 상태였는데요.
+운영 중인 사이트에서 새로운 이벤트 페이지를 오픈했습니다. 해당 페이지에서 SNS 공유 기능을 필요로 하지 않아 넣지 않은 상태였는데요. 따라서 노출되는 콘텐츠(썸네일, 제목, 내용 등)는 지정되어 있지 않았습니다.
 
 >"사용자가 해당 페이지를 공유했을 때 불러온 이미지,타이틀,Description 을 변경하고 싶다."
 
-는 요청사항을 접수하였습니다.
+는 요청사항을 접수하였으며, 이를 처리한 방법을 정리해보았습니다.
 
 # 해결 방법
 
 ## 페이스북(Facebook)
-- [웹마스터 공유 가이드](https://developers.facebook.com/docs/sharing/webmasters) 를 참고하여 open graph meta tags를 입력해줍니다.
+- [웹마스터 공유 가이드](https://developers.facebook.com/docs/sharing/webmasters) 를 참고하여 open graph meta tags를 입력해줍니다. 이를 통해 노출되는 콘텐츠를 지정할 수 있습니다.
 
 ```html
 <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
@@ -27,10 +26,10 @@ title:  "공유 콘텐츠 캐싱"
 ```
 
 - 페이스북에서는 [Sharing Debugger](https://developers.facebook.com/tools/debug/sharing/) 를 제공합니다.
-해당 페이지에서 SNS에 공유하려는 페이지 URL을 입력 후 **디버그** 합니다.
+해당 페이지에서 SNS에 공유하려는 페이지 URL을 입력 후 **디버그** 하여, 노출되는 콘텐츠를 확인합니다.
 
 ## 트위터(Twitter)
-- [Summary Card](https://dev.twitter.com/cards/types/summary) 를 참고하여 meta 태그(tags)를 입력해줍니다.
+- [Summary Card](https://dev.twitter.com/cards/types/summary) 를 참고하여 meta 태그(tags)를 입력해줍니다. 이를 통해 노출되는 콘텐츠를 지정할 수 있습니다.
 
 ```html
 <meta name="twitter:card" content="summary" />
@@ -41,10 +40,10 @@ title:  "공유 콘텐츠 캐싱"
 ```
 
 - 트위터에서는 [Card Validator](https://cards-dev.twitter.com/validator) 를 제공합니다.
-해당 페이지에서 SNS에 공유하려는 페이지 URL 을 입력 후 **Preview card** 합니다.
+해당 페이지에서 SNS에 공유하려는 페이지 URL 을 입력 후 **Preview card** 하여, 노출되는 콘텐츠를 확인합니다.
 
 ## 링크드인(LinkedIn)
-- [Shared on LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin) 을 참고하여 open graph meta tags 를 입력해줍니다.
+- [Shared on LinkedIn](https://developer.linkedin.com/docs/share-on-linkedin) 을 참고하여 open graph meta tags 를 입력해줍니다. 이를 통해 노출되는 콘텐츠를 지정할 수 있습니다. 앞서 다룬 페이스북과 동일합니다.
 
 ```html
 <meta property="og:title" content="My Shared Article Title" />
