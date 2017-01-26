@@ -11,7 +11,9 @@ JAVA 에서 파일의 확장자를 구해보자.
 이번에 공유하게 될 방법은 다시는 파일 확장자 때문에 제 블로그를 재방문하실 일이 없는 그런 방법이라 여겨집니다.
 
 # 해결방법
+
 ## FilenameUtils.getExtension
+
 [Apache Commons IO](https://commons.apache.org/proper/commons-io/) 에서 제공하는 [FilenameUtils.getExtension](http://commons.apache.org/proper/commons-io/javadocs/api-2.5/src-html/org/apache/commons/io/FilenameUtils.html#line.1034) 이 바로 그것입니다.
 
 
