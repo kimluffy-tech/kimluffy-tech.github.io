@@ -51,13 +51,16 @@ IE10에서 HTML5의 `<video>` 가 동작하지 않을 경우 원인과 해결 �
 서버(S3)에 업로드된 파일의 MIME type을 확인해보니 업로드 시 MIME type을 지정해주지 않아 업로드된 파일 모두 아래와 같은 Content-Type 을 가지고 있었습니다.
 ![Content-Type: application/octet-stream](/images/ie10_video_tag_not_working (1).PNG)
 
-그래서 업로드 시 MIME type을 지정해주고 다시 확인해봤습니다.
-
 ```
 ObjectMetadata metadata = new ObjectMetadata();
 metadata.setContentType("video/mp4");
 ```
-
+그래서 업로드 시 MIME type을 지정해주고 다시 확인해봤습니다.
 ![type=video/mp4](/images/ie10_video_tag_not_working (2).PNG)
 
-이렇게 하고나니 IE10에서도 동작하는 것을 확인할 수 있었습니다.
+이렇게 하고나니 IE10에서도 정상적으로 동영상이 실행되는 것을 확인할 수 있었습니다.
+
+마지막으로 MIME type 에 대해 잘 정리된 링크
+([MIME 타입 - HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types))를 남기고 마칠까합니다.
+
+감사합니다.
