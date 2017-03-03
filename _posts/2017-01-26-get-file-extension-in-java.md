@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "파일의 확장자 구하기(JAVA)"
+categories: tip
 ---
 # 목표
 JAVA 에서 파일의 확장자를 구해보자.
