@@ -16,8 +16,8 @@
 title: kimluffy 기술 블로그
 email: kimluffy+github@gmail.com
 description: 공유하라! Share it!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://kimluffy-tech.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ""
 github_username:  kimluffy-tech
 
