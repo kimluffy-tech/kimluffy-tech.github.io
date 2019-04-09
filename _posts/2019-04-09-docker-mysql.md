@@ -3,18 +3,15 @@ layout: post
 title:  "Windows 에서 Docker 로 MYSQL 사용하기"
 categories: docker
 ---
+## 목표
 
-# 목표
-
-Windows 에서 Docker 로 MYSQL 을 사용해보자.
-
----
+- Windows 에서 Docker 로 MYSQL 을 사용해보자.
 
 ## 시작하며
 
-처음 개인 프로젝트를 생성했을 땐 MYSQL을 로컬에 설치하였고,  
+- 처음 개인 프로젝트를 생성했을 땐 MYSQL을 로컬에 설치하였고,  
 AWS를 알게 된 후에는 AWS의 RDS를 이용. 편리함을 느꼈지만 편리한만큼 지출이 생겼다.  
-이제 Doker를 통해 조금 더 쉽고, 편리하게 지출없이 로컬 개발환경을 꾸려보자. 
+이제 Doker를 통해 조금 더 쉽고, 편리하게 ~~지출없이~~ 로컬 개발환경을 꾸려보자.
 
 ---
 
